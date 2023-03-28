@@ -11,10 +11,6 @@ namespace Laba10
         public int Year { get; set; }
         public bool IsClean { get; set; }
 
-        public void Drive()
-        {
-            Console.WriteLine("Driving...");
-        }
     }
 
     public class Garage
@@ -83,7 +79,7 @@ namespace Laba10
             washer(garage.cars[1]);
 
 
-            //garage.WashAllCars(washer);
+            
 
             Console.WriteLine($"Car 1 is clean: {car1.IsClean}");
             Console.WriteLine($"Car 2 is clean: {car2.IsClean}");
